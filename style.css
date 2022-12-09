@@ -16,9 +16,11 @@
 
 
   li a {
+    font-family: 'Montserrat';
     text-decoration: none;
     color: #32140F;
     padding: 16px;
+    font-size: 24px;
   }
 
 
@@ -64,17 +66,21 @@
 
 
   .container-sect {
-    margin: 25px 0;
     display: flex;
-    flex-wrap: wrap;
+  }
+
+  .origins-section-background {
+    background-color: #B34637;
+    background-image: url(images/kirk-card.png);
+    background-repeat: no-repeat;
+    background-position: right top;
   }
 
 
   .text-card {
-    background-color: #B34637;
     flex-basis: 640px;
     padding: 25px;
-    height: 752px;
+    height: 700px;
     width: 762px;
   }
 
@@ -91,3 +97,61 @@
     width: 945px;
     height: 752px;
 }
+
+body {
+    font-family: 'Fugaz One';
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    line-height: 1.5;
+    color:#32140F;
+  }
+  
+  .pimg1 {
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pimg1 {
+    background-image: url("https://assets.codepen.io/7596121/town-card.png");
+    height: 552px;
+  }
+  
+  .ptext {
+    color: #F9F5F5;
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+  }
+  
+  .section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #A19826;
+  }
+
+  .emmet-card {
+    background-image: url(images/emmet-card.png);
+    height: 629px;
+    background-size: cover;
+  }
+
+
+  footer {
+    background-color: #A19826;
+    padding: 15px;
+    width: 1440px;
+    height: 279px;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: white;
+  }
